@@ -1,0 +1,35 @@
+.history {
+    padding: 20px;
+    text-align: center;
+}
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.history-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.history-button:hover {
+    background-color: #0056b3;
+}
+
+.history-button.active {
+    background-color: #004085;
+}
+
+.graph {
+    margin-top: 30px;
+}
+
+.error {
+    color: red;
+}
