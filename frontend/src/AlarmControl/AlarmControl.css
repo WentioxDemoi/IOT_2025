@@ -1,0 +1,81 @@
+.alarm-control {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.alarm-control h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.alarm-control label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.alarm-control input {
+    width: 80px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.start-stop-button {
+    background-color: #ff5555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-stop-button:hover {
+    background-color: #ff0000;
+}
+
+.save-humidity-button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-humidity-button:hover {
+    background-color: #009ace;
+}
+
+.stop-signal-button {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stop-signal-button:hover {
+    background-color: #ffb300;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    font-size: 12px;
+}
